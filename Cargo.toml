@@ -1,0 +1,16 @@
+[workspace]
+members = [
+    "src/crates/*",
+    "src/main"
+]
+
+[workspace.package]
+version = "1.0.0"
+edition = "2021"
+authors = ["initinll"]
+description = "A short description of my package"
+documentation = "https://example.com"
+
+[workspace.dependencies]
+rand = "0.8.5"
+
